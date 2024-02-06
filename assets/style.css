@@ -1,0 +1,193 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-size: 1rem;
+  margin: 0;
+  background-color: hsl(30, 54%, 90%);
+  font-family: Outfit;
+  color: hsl(14, 45%, 36%);
+}
+
+main {
+  background-color: hsl(0, 0%, 100%);
+  margin-left: auto;
+  margin-right: auto;
+  width: 42%;
+  text-align: center;
+  border-radius: .75rem;
+  padding: 2%
+}
+
+img {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: .75rem;
+}
+
+h1 {
+  text-align: left;
+  font-size: 3vw;
+  font-family: Young Serif;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 2vw;
+  color: hsl(14, 45%, 36%);
+  text-align: left;
+  font-size: small;
+}
+
+
+.lista-preparacion {
+  background-color: hsl(330, 100%, 98%);
+  font-weight: bolder;
+  text-align: left;
+  border-radius: .75rem;
+  padding: 1vw 2vw;
+
+}
+
+.titulo-preparacion {
+  color: hsl(332, 51%, 32%);
+  font-size: medium;
+}
+
+h4 {
+  text-align: left;
+  color: hsl(14, 45%, 36%);
+  font-family: Young Serif;
+  margin-bottom: 0.1vw;
+  margin-top: 2vw;
+  font-size: larger;
+  font-weight: 500;
+}
+
+li {
+  color: hsl(30, 10%, 34%);
+  font-weight: normal;
+  font-family: Outfit;
+  font-size: small;
+  text-align: left;
+  margin-left: -20px;
+  padding-left: 1vw;
+}
+
+li p {
+  margin-top: -6px;
+}
+
+span {
+  font-weight: bold;
+}
+
+hr {
+  border-color: hsl(330, 100%, 98%);
+  border-style: solid;
+}
+
+.valores-nutricionales {
+  display: flex;
+  justify-content: start;
+  width: 85%;
+  padding-left: 5%;
+  height: 3rem;
+}
+
+.elementos {
+  width: 70%;
+  text-align: left;
+}
+
+.valores {
+  font-weight: bolder;
+  width: 50%;
+  text-align: left;
+}
+
+@media (max-width: 375px) {
+  main {
+    border-radius: 0;
+    padding: 0;
+  }
+
+  img {
+    padding: 0;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  h1 {
+    font-size: medium;
+    padding: 8% 6% 2% 6%;
+  }
+
+  p {
+    margin: 2vw 3vw;
+    color: hsl(14, 45%, 36%);
+    text-align: left;
+    font-size: 1.85vw;
+  }
+
+li p {
+  margin: 2vw 0vw;
+}
+
+
+  .lista-preparacion {
+    margin: 6%;
+    text-align: left;
+    border-radius: .75rem;
+    padding: 1vw 3vw;
+    font-size: 3vw;
+  }
+
+  .titulo-preparacion {
+    margin-left: 1vw;
+    font-size: xx-small;
+  }
+
+  h4 {
+    padding-left: 6%;
+    font-size: small;
+    font-weight: 300;
+  }
+
+  ol li, ul li {
+    font-size: 2.08vw;
+    padding-left: -10px;
+    
+  }
+
+  hr {
+    margin-left: 6%;
+    width: 88%;
+    border-color: hsl(330, 100%, 98%);
+    border-style: solid;
+  }
+
+  .valores-nutricionales {
+    height: 4vw;
+    /* text-align: center; */
+    
+  }
+
+  .elementos {
+    text-align: left;
+  }
+
+  .valores {
+    font-weight: bolder;
+    width: 50%;
+    text-align: left;
+  }
+}
